@@ -7,13 +7,13 @@ export const morning = (req,res) =>{
 
 export const afternoon = (req,res) =>{
     res.status(200).json({
-        message: "Good Morning"
+        message: "Good After"
     })
 }
 
 
 export const night = (req,res) =>{
     res.status(200).json({
-        message: "Good Morning"
+        message: "Good Night"
     })
 }
